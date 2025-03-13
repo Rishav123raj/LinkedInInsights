@@ -15,43 +15,6 @@
 - ✅ Exposes REST APIs with pagination and filtering.
 - ✅ Dockerized for seamless deployment.
 
-## 📂 Project Structure
-
-```
-linkedin-insights/
-│── src/
-│   ├── main/
-│   │   ├── java/com/example/linkedininsights/
-│   │   │   ├── controller/
-│   │   │   │   ├── PageController.java
-│   │   │   │   ├── PostController.java
-│   │   │   │   ├── CommentController.java
-│   │   │   ├── model/
-│   │   │   │   ├── Page.java
-│   │   │   │   ├── Post.java
-│   │   │   │   ├── Comment.java
-│   │   │   ├── repository/
-│   │   │   │   ├── PageRepository.java
-│   │   │   │   ├── PostRepository.java
-│   │   │   │   ├── CommentRepository.java
-│   │   │   ├── service/
-│   │   │   │   ├── LinkedInScraperService.java
-│   │   │   │   ├── OpenAiService.java
-│   │   │   │   ├── StorageService.java
-│   │   │   │   ├── CacheService.java
-│   │   │   ├── config/
-│   │   │   │   ├── RedisConfig.java
-│   │   │   │   ├── OpenAiConfig.java
-│   │   │   ├── LinkedInInsightsApplication.java
-│   ├── resources/
-│   │   ├── application.properties
-│── .gitignore
-│── Dockerfile
-│── README.md
-│── postman_collection.json
-│── pom.xml
-```
-
 ## 🚀 Getting Started
 
 ### 1️⃣ Prerequisites
